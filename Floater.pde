@@ -1,5 +1,7 @@
 class Floater //Do NOT modify the Floater class! Make changes in the Spaceship class 
-{   
+{
+  protected double myDirectionX; //had to add them sorry for modifying :(
+  protected double myDirectionY;
   protected int corners;  //the number of corners, a triangular floater has 3   
   protected int[] xCorners;   
   protected int[] yCorners;   
